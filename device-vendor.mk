@@ -323,17 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml:samsung \
     vendor/samsung/a2corelte/proprietary/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml:samsung \
     vendor/samsung/a2corelte/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_file_contexts:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_hwservice_contexts:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_mac_permissions.xml:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_property_contexts:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_seapp_contexts:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_sepolicy.cil:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/nonplat_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_service_contexts:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/precompiled_sepolicy:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts:samsung \
     vendor/samsung/a2corelte/proprietary/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin:samsung \
     vendor/samsung/a2corelte/proprietary/etc/wifi/bcmdhd_apsta.bin_36:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_36:samsung \
     vendor/samsung/a2corelte/proprietary/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob:samsung \
@@ -508,8 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/vndk-sp/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libion.so:samsung \
     vendor/samsung/a2corelte/proprietary/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:samsung \
     vendor/samsung/a2corelte/proprietary/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:samsung \
-    vendor/samsung/a2corelte/proprietary/overlay/framework-res__auto_generated_rro.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/framework-res__auto_generated_rro.apk:samsung \
-    vendor/samsung/a2corelte/proprietary/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk:samsung \
     vendor/samsung/a2corelte/proprietary/tee/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-474154454b45:samsung \
     vendor/samsung/a2corelte/proprietary/tee/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4b45594d5354:samsung \
     vendor/samsung/a2corelte/proprietary/tee/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-505256544545:samsung \
