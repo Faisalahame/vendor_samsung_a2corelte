@@ -1,0 +1,3 @@
+bin/acpi
+bin/hw/rild
+etc/mkshrc

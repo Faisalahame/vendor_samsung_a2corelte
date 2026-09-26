@@ -10,6 +10,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:samsung \
+    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:samsung \
     vendor/samsung/a2corelte/proprietary/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz:samsung \
     vendor/samsung/a2corelte/proprietary/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt:samsung \
     vendor/samsung/a2corelte/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml:samsung \
@@ -68,14 +93,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt:samsung \
     vendor/samsung/a2corelte/proprietary/etc/nxp/LVAZFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVAZFS_Configuration.txt:samsung \
     vendor/samsung/a2corelte/proprietary/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt:samsung \
@@ -263,28 +285,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/hw/android.hardware.soundtrigger@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.0-impl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/audio.primary.universal7870_go.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.universal7870_go.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/camera.universal7870_go.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.universal7870_go.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/gatekeeper.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7870.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/lights.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.exynos5.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/power.universal7870_go.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.universal7870_go.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/sensors.universal7870_go.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870_go.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so:samsung \
@@ -303,7 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libldnhncr.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/vndk-sp/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libion.so:samsung \
     vendor/samsung/a2corelte/proprietary/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:samsung \
     vendor/samsung/a2corelte/proprietary/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:samsung \
     vendor/samsung/a2corelte/proprietary/tee/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-474154454b45:samsung \
