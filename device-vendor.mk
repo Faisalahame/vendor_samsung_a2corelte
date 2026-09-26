@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml:samsung \
     vendor/samsung/a2corelte/proprietary/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml:samsung \
     vendor/samsung/a2corelte/proprietary/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml:samsung \
-    vendor/samsung/a2corelte/proprietary/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc:samsung \
     vendor/samsung/a2corelte/proprietary/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin:samsung \
     vendor/samsung/a2corelte/proprietary/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin:samsung \
     vendor/samsung/a2corelte/proprietary/etc/plmn_delta_usacdma.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usacdma.bin:samsung \
