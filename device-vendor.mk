@@ -10,15 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant:samsung \
     vendor/samsung/a2corelte/proprietary/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz:samsung \
     vendor/samsung/a2corelte/proprietary/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt:samsung \
     vendor/samsung/a2corelte/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml:samsung \
