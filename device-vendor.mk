@@ -10,25 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader:samsung \
