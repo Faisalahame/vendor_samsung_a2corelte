@@ -10,165 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin:samsung \
     vendor/samsung/a2corelte/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/base64:$(TARGET_COPY_OUT_VENDOR)/bin/base64:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/basename:$(TARGET_COPY_OUT_VENDOR)/bin/basename:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/blockdev:$(TARGET_COPY_OUT_VENDOR)/bin/blockdev:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cal:$(TARGET_COPY_OUT_VENDOR)/bin/cal:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cat:$(TARGET_COPY_OUT_VENDOR)/bin/cat:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chcon:$(TARGET_COPY_OUT_VENDOR)/bin/chcon:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chgrp:$(TARGET_COPY_OUT_VENDOR)/bin/chgrp:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chmod:$(TARGET_COPY_OUT_VENDOR)/bin/chmod:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chown:$(TARGET_COPY_OUT_VENDOR)/bin/chown:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chroot:$(TARGET_COPY_OUT_VENDOR)/bin/chroot:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/chrt:$(TARGET_COPY_OUT_VENDOR)/bin/chrt:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cksum:$(TARGET_COPY_OUT_VENDOR)/bin/cksum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/clear:$(TARGET_COPY_OUT_VENDOR)/bin/clear:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cmp:$(TARGET_COPY_OUT_VENDOR)/bin/cmp:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/comm:$(TARGET_COPY_OUT_VENDOR)/bin/comm:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cp:$(TARGET_COPY_OUT_VENDOR)/bin/cp:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cpio:$(TARGET_COPY_OUT_VENDOR)/bin/cpio:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/cut:$(TARGET_COPY_OUT_VENDOR)/bin/cut:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/date:$(TARGET_COPY_OUT_VENDOR)/bin/date:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/df:$(TARGET_COPY_OUT_VENDOR)/bin/df:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/diff:$(TARGET_COPY_OUT_VENDOR)/bin/diff:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/dirname:$(TARGET_COPY_OUT_VENDOR)/bin/dirname:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/dmesg:$(TARGET_COPY_OUT_VENDOR)/bin/dmesg:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/dos2unix:$(TARGET_COPY_OUT_VENDOR)/bin/dos2unix:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/du:$(TARGET_COPY_OUT_VENDOR)/bin/du:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/echo:$(TARGET_COPY_OUT_VENDOR)/bin/echo:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/egrep:$(TARGET_COPY_OUT_VENDOR)/bin/egrep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/env:$(TARGET_COPY_OUT_VENDOR)/bin/env:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/expand:$(TARGET_COPY_OUT_VENDOR)/bin/expand:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/expr:$(TARGET_COPY_OUT_VENDOR)/bin/expr:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/fallocate:$(TARGET_COPY_OUT_VENDOR)/bin/fallocate:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/false:$(TARGET_COPY_OUT_VENDOR)/bin/false:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/fgrep:$(TARGET_COPY_OUT_VENDOR)/bin/fgrep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/file:$(TARGET_COPY_OUT_VENDOR)/bin/file:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/find:$(TARGET_COPY_OUT_VENDOR)/bin/find:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/flock:$(TARGET_COPY_OUT_VENDOR)/bin/flock:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/free:$(TARGET_COPY_OUT_VENDOR)/bin/free:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/getenforce:$(TARGET_COPY_OUT_VENDOR)/bin/getenforce:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/getprop:$(TARGET_COPY_OUT_VENDOR)/bin/getprop:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/groups:$(TARGET_COPY_OUT_VENDOR)/bin/groups:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/gunzip:$(TARGET_COPY_OUT_VENDOR)/bin/gunzip:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/gzip:$(TARGET_COPY_OUT_VENDOR)/bin/gzip:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/head:$(TARGET_COPY_OUT_VENDOR)/bin/head:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/hostname:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/hwclock:$(TARGET_COPY_OUT_VENDOR)/bin/hwclock:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/id:$(TARGET_COPY_OUT_VENDOR)/bin/id:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ifconfig:$(TARGET_COPY_OUT_VENDOR)/bin/ifconfig:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/inotifyd:$(TARGET_COPY_OUT_VENDOR)/bin/inotifyd:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/insmod:$(TARGET_COPY_OUT_VENDOR)/bin/insmod:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ionice:$(TARGET_COPY_OUT_VENDOR)/bin/ionice:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/iorenice:$(TARGET_COPY_OUT_VENDOR)/bin/iorenice:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/kill:$(TARGET_COPY_OUT_VENDOR)/bin/kill:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/killall:$(TARGET_COPY_OUT_VENDOR)/bin/killall:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ln:$(TARGET_COPY_OUT_VENDOR)/bin/ln:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/load_policy:$(TARGET_COPY_OUT_VENDOR)/bin/load_policy:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/logname:$(TARGET_COPY_OUT_VENDOR)/bin/logname:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/losetup:$(TARGET_COPY_OUT_VENDOR)/bin/losetup:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ls:$(TARGET_COPY_OUT_VENDOR)/bin/ls:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/lsmod:$(TARGET_COPY_OUT_VENDOR)/bin/lsmod:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/lsof:$(TARGET_COPY_OUT_VENDOR)/bin/lsof:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/lspci:$(TARGET_COPY_OUT_VENDOR)/bin/lspci:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/lsusb:$(TARGET_COPY_OUT_VENDOR)/bin/lsusb:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/microcom:$(TARGET_COPY_OUT_VENDOR)/bin/microcom:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mkdir:$(TARGET_COPY_OUT_VENDOR)/bin/mkdir:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mkfifo:$(TARGET_COPY_OUT_VENDOR)/bin/mkfifo:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mknod:$(TARGET_COPY_OUT_VENDOR)/bin/mknod:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mkswap:$(TARGET_COPY_OUT_VENDOR)/bin/mkswap:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mktemp:$(TARGET_COPY_OUT_VENDOR)/bin/mktemp:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/modinfo:$(TARGET_COPY_OUT_VENDOR)/bin/modinfo:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/more:$(TARGET_COPY_OUT_VENDOR)/bin/more:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mount:$(TARGET_COPY_OUT_VENDOR)/bin/mount:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mountpoint:$(TARGET_COPY_OUT_VENDOR)/bin/mountpoint:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/mv:$(TARGET_COPY_OUT_VENDOR)/bin/mv:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/netstat:$(TARGET_COPY_OUT_VENDOR)/bin/netstat:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/nice:$(TARGET_COPY_OUT_VENDOR)/bin/nice:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/nl:$(TARGET_COPY_OUT_VENDOR)/bin/nl:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/nohup:$(TARGET_COPY_OUT_VENDOR)/bin/nohup:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/od:$(TARGET_COPY_OUT_VENDOR)/bin/od:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/paste:$(TARGET_COPY_OUT_VENDOR)/bin/paste:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/patch:$(TARGET_COPY_OUT_VENDOR)/bin/patch:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/pgrep:$(TARGET_COPY_OUT_VENDOR)/bin/pgrep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/pidof:$(TARGET_COPY_OUT_VENDOR)/bin/pidof:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/pkill:$(TARGET_COPY_OUT_VENDOR)/bin/pkill:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/pmap:$(TARGET_COPY_OUT_VENDOR)/bin/pmap:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/printenv:$(TARGET_COPY_OUT_VENDOR)/bin/printenv:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/printf:$(TARGET_COPY_OUT_VENDOR)/bin/printf:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ps:$(TARGET_COPY_OUT_VENDOR)/bin/ps:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/pwd:$(TARGET_COPY_OUT_VENDOR)/bin/pwd:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/readlink:$(TARGET_COPY_OUT_VENDOR)/bin/readlink:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/realpath:$(TARGET_COPY_OUT_VENDOR)/bin/realpath:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/renice:$(TARGET_COPY_OUT_VENDOR)/bin/renice:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/restorecon:$(TARGET_COPY_OUT_VENDOR)/bin/restorecon:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/rm:$(TARGET_COPY_OUT_VENDOR)/bin/rm:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/rmdir:$(TARGET_COPY_OUT_VENDOR)/bin/rmdir:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/rmmod:$(TARGET_COPY_OUT_VENDOR)/bin/rmmod:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/runcon:$(TARGET_COPY_OUT_VENDOR)/bin/runcon:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sed:$(TARGET_COPY_OUT_VENDOR)/bin/sed:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sendevent:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/seq:$(TARGET_COPY_OUT_VENDOR)/bin/seq:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/setenforce:$(TARGET_COPY_OUT_VENDOR)/bin/setenforce:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/setprop:$(TARGET_COPY_OUT_VENDOR)/bin/setprop:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/setsid:$(TARGET_COPY_OUT_VENDOR)/bin/setsid:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sha1sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha1sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sha224sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha224sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sha384sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha384sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sha512sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha512sum:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sleep:$(TARGET_COPY_OUT_VENDOR)/bin/sleep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sort:$(TARGET_COPY_OUT_VENDOR)/bin/sort:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/split:$(TARGET_COPY_OUT_VENDOR)/bin/split:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/start:$(TARGET_COPY_OUT_VENDOR)/bin/start:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/stat:$(TARGET_COPY_OUT_VENDOR)/bin/stat:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/stop:$(TARGET_COPY_OUT_VENDOR)/bin/stop:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/strings:$(TARGET_COPY_OUT_VENDOR)/bin/strings:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sync:$(TARGET_COPY_OUT_VENDOR)/bin/sync:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/sysctl:$(TARGET_COPY_OUT_VENDOR)/bin/sysctl:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tac:$(TARGET_COPY_OUT_VENDOR)/bin/tac:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tail:$(TARGET_COPY_OUT_VENDOR)/bin/tail:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tar:$(TARGET_COPY_OUT_VENDOR)/bin/tar:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/taskset:$(TARGET_COPY_OUT_VENDOR)/bin/taskset:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tee:$(TARGET_COPY_OUT_VENDOR)/bin/tee:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/time:$(TARGET_COPY_OUT_VENDOR)/bin/time:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/timeout:$(TARGET_COPY_OUT_VENDOR)/bin/timeout:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/top:$(TARGET_COPY_OUT_VENDOR)/bin/top:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/touch:$(TARGET_COPY_OUT_VENDOR)/bin/touch:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tr:$(TARGET_COPY_OUT_VENDOR)/bin/tr:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/true:$(TARGET_COPY_OUT_VENDOR)/bin/true:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/truncate:$(TARGET_COPY_OUT_VENDOR)/bin/truncate:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tty:$(TARGET_COPY_OUT_VENDOR)/bin/tty:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/tzdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzdaemon:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/ulimit:$(TARGET_COPY_OUT_VENDOR)/bin/ulimit:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/umount:$(TARGET_COPY_OUT_VENDOR)/bin/umount:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/uname:$(TARGET_COPY_OUT_VENDOR)/bin/uname:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/uniq:$(TARGET_COPY_OUT_VENDOR)/bin/uniq:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/unix2dos:$(TARGET_COPY_OUT_VENDOR)/bin/unix2dos:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/uptime:$(TARGET_COPY_OUT_VENDOR)/bin/uptime:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/usleep:$(TARGET_COPY_OUT_VENDOR)/bin/usleep:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/uudecode:$(TARGET_COPY_OUT_VENDOR)/bin/uudecode:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/uuencode:$(TARGET_COPY_OUT_VENDOR)/bin/uuencode:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/vmstat:$(TARGET_COPY_OUT_VENDOR)/bin/vmstat:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/wc:$(TARGET_COPY_OUT_VENDOR)/bin/wc:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/which:$(TARGET_COPY_OUT_VENDOR)/bin/which:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/whoami:$(TARGET_COPY_OUT_VENDOR)/bin/whoami:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/xargs:$(TARGET_COPY_OUT_VENDOR)/bin/xargs:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes:samsung \
-    vendor/samsung/a2corelte/proprietary/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service:samsung \
     vendor/samsung/a2corelte/proprietary/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service:samsung \
@@ -352,9 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/lib_SamsungRec_06006.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06006.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver300.so:samsung \
@@ -407,9 +245,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/libselinux_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libselinux_vendor.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so:samsung \
+    vendor/samsung/a2corelte/proprietary/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libstainkiller.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstainkiller.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so:samsung \
@@ -473,7 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a2corelte/proprietary/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so:samsung \
-    vendor/samsung/a2corelte/proprietary/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so:samsung \
     vendor/samsung/a2corelte/proprietary/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so:samsung \
